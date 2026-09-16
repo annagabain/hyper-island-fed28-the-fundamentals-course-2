@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Bold.woff2') format('woff2'),
+        url('./fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+body {
+    width: 80rem;
+height: 45rem;
+box-sizing: border-box;
+background: linear-gradient(rgba(245, 245, 220, 0.2), rgba(245, 245, 220, 0.7)), 
+            url("pexels-photo-4484830.jpg") center / cover no-repeat;
+
+
+
+
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 70%;
+}
+
+
