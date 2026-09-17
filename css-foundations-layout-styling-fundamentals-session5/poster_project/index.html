@@ -1,35 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Poster Project</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Poster Project</title>
+  </head>
 
-<!-- In index.html, create a div element that will hold your entire poster
-● Give this div a unique id
-● In CSS, set explicit dimensions for the poster using width and height
-(choose values so that it fits in your computer screen)
-● Add background color to the poster and a different background color to the
-body element
+  <body> 
+    <div class="background-polygon"></div>
 
-Part 3
-● Add content inside the poster div:
-○ A title
-○ At least two paragraphs of text
-○ At least one image
-● Format the text however you want, by changing the fonts, sizes, colors,
-weights, etc.
-● Use div elements to create different sections on the poster, potentially with
-different background colors and borders
-● Position all the elements correctly with position and z-index (you should
-use each of them at least once)
- -->
+    <!-- Entire poster container -->
+     <div class="poster-wrapper">
 
-<body>
+       <div id="poster">
 
+      <!-- Text1 section -->
+      <div id="left" class="text-section  slideInUp">
+        <!-- Title section -->
+          <h1 class="title-section">BACKWARDS</h1>
+        <p>
+          Backwards is an immersive, avant-garde multimedia art exhibition and
+          psychological experiment that explores the illusion of linear time. 
+        </p>
 
-  hello poster
-</body>
+        <p>
+            By blending surrealist physical installations, interactive light
+          soundscapes, and warped digital art, the event challenges attendees to
+          experience reality in reverse.
+        </p>
+
+        <p>
+             It is a space where the past is
+          actively constructed, the future has already occurred, and human
+          consciousness is decoupled from the ticking of the clock.
+        </p>
+           
+        
+        </div>
+        
+        <!-- Poster Image section -->
+        <div class="image-section ">
+          <img src="poster_image.png" alt="Poster named Backwards" />
+        </div>
+     
+        <!-- Text2 section -->
+         <div id="right" class="text-section  slideInDown">
+           <p>
+You don’t look at time; time looks out from within you. 
+           </p>
+              <p>
+             Step through
+          the looking glass at Backwards, a mind-bending journey into the
+          anatomy of memory and countdowns.
+           </p>
+              <p>
+              Disorient your senses, unlearn your
+          routine, and witness the precise moment where human perception merges
+          with the gears of eternity—because the end is only the beginning.
+           </p>
+        
+       
+        </div>
+       
+      </div>
+    </div>
+     </div>
+
+    
+   <footer>Anna Gabain (c) 2026 For Hyper Island  <br> Creative Commons Attribution-NonCommercial 4.0 International License</footer>
+  </body>
 </html>
+</p>
